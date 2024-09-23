@@ -34,7 +34,7 @@ int main()
     //Para guardar letras!!
     char sexo = ' ';
     //Para guardar cadenas de caracteres osea muchas letras
-    char nombre[15] = " ";
+    char nombre[15] = "Mau Cabrera";//Valor L No modificable
     std::string name = " ";
     //1.-Hablemos con el usuario y solicitemos la información.
     std::cout << "Cuentame!! Cuántos años tienes? ";
@@ -43,4 +43,8 @@ int main()
     std::cin >> Edad;
     //3.- Mostrar la información recolectada
     std::cout << "Entonces tienes: " << Edad << " años, Super! bienvenido" << std::endl;
+    //No se puede cambiar el valor de asignación nombre[15] = "Juan perez";
+    std::cout << "Tu nombre es: " << nombre << std::endl;
+    std::cin >> nombre;
+    std::cout << "Tu nuevo nombre es: " << nombre << std::endl;
 }
