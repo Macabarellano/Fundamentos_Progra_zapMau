@@ -47,4 +47,17 @@ int main()
     std::cout << "Tu nombre es: " << nombre << std::endl;
     std::cin >> nombre;
     std::cout << "Tu nuevo nombre es: " << nombre << std::endl;
+
+    //Hacer una suma de 2 datos que ingrese el usuario.
+    //primero DECLARAMOS
+    int numero1, numero2;
+    //Segundo SOLICITAMOS
+    std::cout << "Ingresa el primer numero a sumar: " << std::endl;
+    //Tercero RECIBIMOS
+    std::cin >> numero1;
+
+    std::cout << "Ingresa el segundo numero a sumar: " << std::endl;
+    std::cin >> numero2;
+    //Cuarto OPERAMOS o UTILIZAMOS
+    std::cout << "El resultado de la suma es: "<< numero1 + numero2 << std::endl;
 }
